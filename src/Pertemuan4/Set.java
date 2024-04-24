@@ -1,15 +1,15 @@
-package Pertemuan1;
+package Pertemuan4;
 
 import java.util.ArrayList;
 
-public class contoh1 {
+public class Set {
     public static void main(String[] args) {
         ArrayList<String> cars = new ArrayList<String>();
         cars.add("Volvo");
         cars.add("BMW");
         cars.add("Ford");
         cars.add("Mazda");
-        cars.remove(0);
+        cars.set(0, "Opel");
         System.out.println(cars);
     }
 }
